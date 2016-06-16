@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10B70C1B1D127853004780B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B70C1A1D127853004780B0 /* main.m */; };
+		10B70C1E1D127853004780B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B70C1D1D127853004780B0 /* AppDelegate.m */; };
+		10B70C261D127853004780B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B70C251D127853004780B0 /* Assets.xcassets */; };
+		10B70C341D127853004780B0 /* HVImageBrowserControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B70C331D127853004780B0 /* HVImageBrowserControllerTests.m */; };
+		10B70C3F1D127853004780B0 /* HVImageBrowserControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B70C3E1D127853004780B0 /* HVImageBrowserControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10B70C301D127853004780B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10B70C0E1D127853004780B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10B70C151D127853004780B0;
+			remoteInfo = HVImageBrowserController;
+		};
+		10B70C3B1D127853004780B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10B70C0E1D127853004780B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10B70C151D127853004780B0;
+			remoteInfo = HVImageBrowserController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10B70C161D127853004780B0 /* HVImageBrowserController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HVImageBrowserController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B70C1A1D127853004780B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		10B70C1C1D127853004780B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		10B70C1D1D127853004780B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		10B70C251D127853004780B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10B70C2A1D127853004780B0 /* HVImageBrowserController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HVImageBrowserController-Info.plist"; sourceTree = "<group>"; };
+		10B70C2F1D127853004780B0 /* HVImageBrowserControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HVImageBrowserControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B70C331D127853004780B0 /* HVImageBrowserControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HVImageBrowserControllerTests.m; sourceTree = "<group>"; };
+		10B70C351D127853004780B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10B70C3A1D127853004780B0 /* HVImageBrowserControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HVImageBrowserControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10B70C3E1D127853004780B0 /* HVImageBrowserControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HVImageBrowserControllerUITests.m; sourceTree = "<group>"; };
+		10B70C401D127853004780B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10B70C131D127853004780B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10B70C2C1D127853004780B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10B70C371D127853004780B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10B70C0D1D127853004780B0 = {
+			isa = PBXGroup;
+			children = (
+				10B70C181D127853004780B0 /* HVImageBrowserController */,
+				10B70C321D127853004780B0 /* HVImageBrowserControllerTests */,
+				10B70C3D1D127853004780B0 /* HVImageBrowserControllerUITests */,
+				10B70C171D127853004780B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10B70C171D127853004780B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10B70C161D127853004780B0 /* HVImageBrowserController.app */,
+				10B70C2F1D127853004780B0 /* HVImageBrowserControllerTests.xctest */,
+				10B70C3A1D127853004780B0 /* HVImageBrowserControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10B70C181D127853004780B0 /* HVImageBrowserController */ = {
+			isa = PBXGroup;
+			children = (
+				10B70C4C1D127868004780B0 /* HVImageBrowserController */,
+				10B70C1C1D127853004780B0 /* AppDelegate.h */,
+				10B70C1D1D127853004780B0 /* AppDelegate.m */,
+				10B70C251D127853004780B0 /* Assets.xcassets */,
+				10B70C191D127853004780B0 /* Supporting Files */,
+			);
+			path = HVImageBrowserController;
+			sourceTree = "<group>";
+		};
+		10B70C191D127853004780B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				10B70C2A1D127853004780B0 /* HVImageBrowserController-Info.plist */,
+				10B70C1A1D127853004780B0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10B70C321D127853004780B0 /* HVImageBrowserControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				10B70C331D127853004780B0 /* HVImageBrowserControllerTests.m */,
+				10B70C351D127853004780B0 /* Info.plist */,
+			);
+			path = HVImageBrowserControllerTests;
+			sourceTree = "<group>";
+		};
+		10B70C3D1D127853004780B0 /* HVImageBrowserControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10B70C3E1D127853004780B0 /* HVImageBrowserControllerUITests.m */,
+				10B70C401D127853004780B0 /* Info.plist */,
+			);
+			path = HVImageBrowserControllerUITests;
+			sourceTree = "<group>";
+		};
+		10B70C4C1D127868004780B0 /* HVImageBrowserController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HVImageBrowserController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10B70C151D127853004780B0 /* HVImageBrowserController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10B70C431D127853004780B0 /* Build configuration list for PBXNativeTarget "HVImageBrowserController" */;
+			buildPhases = (
+				10B70C121D127853004780B0 /* Sources */,
+				10B70C131D127853004780B0 /* Frameworks */,
+				10B70C141D127853004780B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HVImageBrowserController;
+			productName = HVImageBrowserController;
+			productReference = 10B70C161D127853004780B0 /* HVImageBrowserController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10B70C2E1D127853004780B0 /* HVImageBrowserControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10B70C461D127853004780B0 /* Build configuration list for PBXNativeTarget "HVImageBrowserControllerTests" */;
+			buildPhases = (
+				10B70C2B1D127853004780B0 /* Sources */,
+				10B70C2C1D127853004780B0 /* Frameworks */,
+				10B70C2D1D127853004780B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10B70C311D127853004780B0 /* PBXTargetDependency */,
+			);
+			name = HVImageBrowserControllerTests;
+			productName = HVImageBrowserControllerTests;
+			productReference = 10B70C2F1D127853004780B0 /* HVImageBrowserControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10B70C391D127853004780B0 /* HVImageBrowserControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10B70C491D127853004780B0 /* Build configuration list for PBXNativeTarget "HVImageBrowserControllerUITests" */;
+			buildPhases = (
+				10B70C361D127853004780B0 /* Sources */,
+				10B70C371D127853004780B0 /* Frameworks */,
+				10B70C381D127853004780B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10B70C3C1D127853004780B0 /* PBXTargetDependency */,
+			);
+			name = HVImageBrowserControllerUITests;
+			productName = HVImageBrowserControllerUITests;
+			productReference = 10B70C3A1D127853004780B0 /* HVImageBrowserControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10B70C0E1D127853004780B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liujianli;
+				TargetAttributes = {
+					10B70C151D127853004780B0 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					10B70C2E1D127853004780B0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 10B70C151D127853004780B0;
+					};
+					10B70C391D127853004780B0 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 10B70C151D127853004780B0;
+					};
+				};
+			};
+			buildConfigurationList = 10B70C111D127853004780B0 /* Build configuration list for PBXProject "HVImageBrowserController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10B70C0D1D127853004780B0;
+			productRefGroup = 10B70C171D127853004780B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10B70C151D127853004780B0 /* HVImageBrowserController */,
+				10B70C2E1D127853004780B0 /* HVImageBrowserControllerTests */,
+				10B70C391D127853004780B0 /* HVImageBrowserControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10B70C141D127853004780B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B70C261D127853004780B0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10B70C2D1D127853004780B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10B70C381D127853004780B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10B70C121D127853004780B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B70C1E1D127853004780B0 /* AppDelegate.m in Sources */,
+				10B70C1B1D127853004780B0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10B70C2B1D127853004780B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B70C341D127853004780B0 /* HVImageBrowserControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10B70C361D127853004780B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10B70C3F1D127853004780B0 /* HVImageBrowserControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10B70C311D127853004780B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10B70C151D127853004780B0 /* HVImageBrowserController */;
+			targetProxy = 10B70C301D127853004780B0 /* PBXContainerItemProxy */;
+		};
+		10B70C3C1D127853004780B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10B70C151D127853004780B0 /* HVImageBrowserController */;
+			targetProxy = 10B70C3B1D127853004780B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10B70C411D127853004780B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10B70C421D127853004780B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10B70C441D127853004780B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/HVImageBrowserController/HVImageBrowserController-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huivo.HVImageBrowserController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		10B70C451D127853004780B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/HVImageBrowserController/HVImageBrowserController-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huivo.HVImageBrowserController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		10B70C471D127853004780B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HVImageBrowserControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huivo.HVImageBrowserControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HVImageBrowserController.app/HVImageBrowserController";
+			};
+			name = Debug;
+		};
+		10B70C481D127853004780B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HVImageBrowserControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huivo.HVImageBrowserControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HVImageBrowserController.app/HVImageBrowserController";
+			};
+			name = Release;
+		};
+		10B70C4A1D127853004780B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HVImageBrowserControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huivo.HVImageBrowserControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HVImageBrowserController;
+			};
+			name = Debug;
+		};
+		10B70C4B1D127853004780B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HVImageBrowserControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huivo.HVImageBrowserControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HVImageBrowserController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10B70C111D127853004780B0 /* Build configuration list for PBXProject "HVImageBrowserController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B70C411D127853004780B0 /* Debug */,
+				10B70C421D127853004780B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10B70C431D127853004780B0 /* Build configuration list for PBXNativeTarget "HVImageBrowserController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B70C441D127853004780B0 /* Debug */,
+				10B70C451D127853004780B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10B70C461D127853004780B0 /* Build configuration list for PBXNativeTarget "HVImageBrowserControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B70C471D127853004780B0 /* Debug */,
+				10B70C481D127853004780B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		10B70C491D127853004780B0 /* Build configuration list for PBXNativeTarget "HVImageBrowserControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B70C4A1D127853004780B0 /* Debug */,
+				10B70C4B1D127853004780B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10B70C0E1D127853004780B0 /* Project object */;
+}
